@@ -1,0 +1,26 @@
+{
+  "name": "mini-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "node ./lib/webpack.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/generator": "^7.15.0",
+    "@babel/parser": "^7.15.3",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/template": "^7.14.5",
+    "@babel/traverse": "^7.15.0",
+    "jsdom": "^17.0.0",
+    "sha256": "^0.2.0",
+    "tapable": "^2.2.0"
+  }
+}
